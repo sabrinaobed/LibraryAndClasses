@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!"); 
-        }
+            //create an object 
+            var firstCustomer = new Customer(1, "Sabrina", "Sabr@gmail.com");
+            Console.WriteLine(firstCustomer.Name);
     }
 }
