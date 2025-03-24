@@ -19,6 +19,11 @@ namespace LibraryAndClasses
                 new Customer(4, "Eliza John", "eliza@gmail.com")
             };
 
+            foreach(var c in customers)
+            {
+                Console.WriteLine($"Id:{c.CustomerId},CustomerName: {c.Name}, Email: {c.Email}");
+            }
+
 
         }
 
