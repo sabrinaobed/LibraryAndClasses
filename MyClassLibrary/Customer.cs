@@ -12,5 +12,16 @@
         public int? PostNumber { get; set; }
         public string? City { get; set; }
         public int? IsVIP { get; set; }
+
+
+        //constructor
+        public Customer(int id, string name, string email)
+        {
+            CustomerId = id;
+            Name = name;
+            Email = email;
+
+        }
     }
+
 }
