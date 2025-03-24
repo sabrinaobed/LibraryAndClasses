@@ -1,6 +1,6 @@
 ﻿namespace MyClassLibrary
 {
-    public class Class1
+    public class Customer
     {
 
     }
